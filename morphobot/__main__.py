@@ -58,10 +58,10 @@ for name in files:
         load_module(shortname.replace(".py", ""))
 
 # Extra Modules...
-# extra_repo = Config.EXTRA_REPO or "https://github.com/BIHARIBABUHU/pikachu_userbot"
-# if Config.EXTRA == "True":
+# pikachu_userbot_repo = Config.pikachu_userbot_REPO or "https://github.com/BIHARIBABUHU/pikachu_userbot"
+# if Config.pikachu_userbot == "True":
 #     try:
-#         os.system(f"git clone {extra_repo}")
+#         os.system(f"git clone {pikachu_userbot_repo}")
 #     except BaseException:
 #         pass
 #     LOGS.info("Installing Extra Plugins")
