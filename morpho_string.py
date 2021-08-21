@@ -14,7 +14,7 @@ if okvai == "love india":
     with TelegramClient(StringSession(), APP_ID, API_HASH) as client:
         print(client.session.save())
         client.send_message("me", client.session.save())
-        client.send_message("me", "Above is your #MORPHOBOT_SESSION \nPaste this string in Heroku Var.\n\n[Team MorphoBot](https://t.me/morpho_userbot)")
+        client.send_message("me", "Above is your #MORPHOBOT_SESSION \nPaste this string in Heroku Var.\n\n[Team MorphoBot](https://t.me/morpho_user)")
 
 else:
     print("love you jaan 😘 chal aab nikal 👉😂")
